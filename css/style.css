@@ -91,13 +91,54 @@ section{
     section {
         padding: 100px 20px;
     }
-}
-@media (max-width: 1040px){
     header{
         padding: 12px 20px;
     }
+}
+@media (max-width: 1040px){
+    
 
     header .menu {
-        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(1,1,1,0.5);
     }
-}
+    header .menu .itens-menu a{
+        font-size: 1.2em;
+        margin: 20px
+    }
+    header .menu .itens-menu{
+        background: #000;
+        width: 600px;
+        max-width: 600px;
+        margin: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        box-shadow: 0 5px 25px rgba(1,1,1,0.5);
+    }
+
+    .menu-btn{
+        background: url("../scr/menu.png")no-repeat;
+        background-size: 30px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    .menu-btn.active{
+        z-index: 999;
+        background: url("/scr/arrow.png")no-repeat;
+        background-size: 30px;
+        background-position: center;
+        transition: 0.3s ease;
+    }
+}   
