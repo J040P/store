@@ -58,6 +58,16 @@ section{
     flex-direction: column;
     background-color: orangered;
 }
+.home video{
+    z-index: 000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    
+}
 .home .content{
     z-index: 888;
     color: white;
