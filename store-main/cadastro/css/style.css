@@ -1,0 +1,52 @@
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    z-index: 999;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+}
+header .menu{
+    position: relative;
+
+}
+
+header .menu .itens-menu{
+    display: flex;
+    position: relative;
+    transition: 0.3 ease;
+}
+header .menu .itens-menu a{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+
+}
+header .menu .itens-menu a:before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+header .menu .itens-menu a:hover:before{
+    width: 100%;
+}
+section{
+    padding: 100px 200px;
+}
