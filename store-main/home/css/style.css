@@ -190,7 +190,7 @@ section{
     background-image: url("../scr/img1.jpeg");
     background-size: cover;
     background-position:center;
-    height: 600px;
+    height: 80vh;
     width: 100%;
 }
 .vermais{
@@ -262,16 +262,16 @@ section{
         transition: 0.3s ease;
     }
    .home .content h1{
-    font-size: 3em;
-    font-weight: 1900;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 50px;
-    margin-bottom: 10px;
+        font-size: 3em;
+        font-weight: 1900;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        line-height: 50px;
+        margin-bottom: 10px;
     }
     .home .content h1 span{
-    font-size: 1em;
-    font-weight: 600;
+        font-size: 1em;
+        font-weight: 600;
     }
     .video1{
         position: absolute;
@@ -302,7 +302,7 @@ section{
         display: none;
     }
     .fotos{
-        height: 20vh;
+        height: 40vh;
     }
     .vermais{
         padding-top: 25px;
