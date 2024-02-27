@@ -1,6 +1,7 @@
 body{
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 header{
     display: flex;
@@ -49,4 +50,32 @@ header .menu .itens-menu a:hover:before{
 }
 section{
     padding: 100px 200px;
+}
+.video{
+    position: absolute;
+}
+.ficha{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 35%;
+    top: 20%;
+    background-color: white;
+    height: 600px;
+    width: 500px;
+    gap: 20px;
+    border-radius: 20px;
+}
+.ficha h1{
+    color: orange;
+    font-size: 80px;
+    top: 0;
+}
+.ficha p{
+    font-size: 20px; 
+}
+.input{
+    height: 50px;
+    width: 400px;
 }
